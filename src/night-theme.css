@@ -1,0 +1,191 @@
+.root {
+
+}
+
+/* COLORS:
+    > #121E31 background
+    > #FFA40B orange highlight
+    > #2A5597 button color
+    > #0096C9 active button
+    > #199DCA hover
+*/
+
+/* Canvas */
+.scrollpane-canvas {
+    -fx-border-width: 1 0 0 0;
+    -fx-border-color: white;
+    -fx-background-color: transparent;
+}
+
+/* App Menu */
+.app-menu {
+    -fx-background-color: #121E31;
+    -fx-border-color: white;
+    -fx-border-width: 1 0 0 0;
+}
+
+.menu-button:hover {
+    -fx-background-color: #436EB1;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #6089C9;
+}
+
+.context-menu {
+    -fx-background-color: #6089C9;
+}
+
+.app-menu > .container > .menu-button > .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item, .context-menu {
+    -fx-background-color: #121E31;
+}
+
+.menu-item:hover {
+    -fx-background-color: #436EB1;
+}
+
+.menu-item:pressed {
+    -fx-background-color: #6089C9;
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-background-color: #121E31;
+    -fx-border-color: white;
+    -fx-border-width: 1 0 0 1;
+}
+
+.toolbar-colorpicker {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-radius: 3 3 3 3;
+	-fx-color-label-visible: false;
+}
+
+.toolbar-colorpicker > .color-picker-label > .picker-color > .picker-color-rect {
+	-fx-stroke: null;
+	-fx-fill: null;
+}
+
+.toolbar-colorpicker > .arrow-button {
+	-fx-padding: 0;
+}
+
+.toolbar-colorpicker > .arrow-button > .arrow {
+	-fx-padding: 0;
+}
+
+.toolbar-combobox {
+    -fx-text-fill: white;
+    -fx-background-color: #2A5597;
+    -fx-border-color: white;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.toolbar-combobox:hover {
+    -fx-background-color: #436EB1;
+}
+
+.toolbar-combobox:pressed {
+    -fx-background-color: #6089C9;
+}
+
+.toolbar-combobox .list-cell {
+    -fx-background-color: #2A5597;
+}
+
+.toolbar-combobox .list-cell:hover {
+    -fx-background-color: #436EB1;
+}
+
+.toolbar-combobox .list-cell:pressed {
+    -fx-background-color: #6089C9;
+}
+
+.toolbar-combobox .text {
+    -fx-fill: white;
+}
+
+.toolbar-combobox .arrow {
+    -fx-background-color: white;
+}
+
+.toolbar-label {
+    -fx-text-fill: white;
+}
+
+.toolbar-button {
+    -fx-background-color: #2A5597;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.toolbar-button:hover {
+    -fx-background-color: #436EB1;
+}
+
+.toolbar-button:pressed {
+    -fx-background-color: #6089C9;
+}
+
+.toolbar-line {
+    -fx-stroke: white;
+}
+
+/* Resize Dialog */
+.resize-dialog {
+    -fx-background-color: #121E31;
+}
+
+.resize-dialog-textfield {
+    -fx-background-color: #2A5597;
+    -fx-border-color: white;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.resize-dialog-label {
+    -fx-text-fill: white;
+}
+
+.resize-dialog-line {
+    -fx-stroke: white;
+}
+
+.resize-dialog-button {
+    -fx-background-color: #2A5597;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.resize-dialog-button:hover {
+    -fx-background-color: #436EB1;
+}
+
+.resize-dialog-button:pressed {
+    -fx-background-color: #6089C9;
+}
+
+/* InfoBar */
+.infobar {
+    -fx-background-color: #121E31;
+    -fx-border-color: white;
+    -fx-border-style: solid none none none;
+}
+
+.infobar-label {
+    -fx-min-width: 100;
+    -fx-max-width: 100;
+    -fx-text-fill: white;
+}

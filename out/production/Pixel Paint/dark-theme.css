@@ -1,0 +1,175 @@
+.root {
+
+}
+
+/* Canvas */
+.scrollpane-canvas {
+    -fx-border-color: black;
+    -fx-border-width: 1 0 0 0;
+    -fx-background-color: transparent;
+}
+
+/* App Menu */
+.app-menu {
+    -fx-background-color: #505050;
+    -fx-border-color: black;
+    -fx-border-width: 1 0 0 0;
+}
+
+.app-menu > .container > .menu-button > .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item, .context-menu {
+    -fx-background-color: #646464;
+}
+
+.menu-item:hover {
+    -fx-background-color: #858585;
+}
+
+.menu-item:pressed {
+    -fx-background-color: #A6A6A6;
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-background-color: #505050;
+    -fx-border-color: black;
+    -fx-border-width: 1 0 0 1;
+}
+
+.toolbar-colorpicker {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-border-radius: 3 3 3 3;
+	-fx-color-label-visible: false;
+}
+
+.toolbar-colorpicker > .color-picker-label > .picker-color > .picker-color-rect {
+	-fx-stroke: null;
+	-fx-fill: null;
+}
+
+.toolbar-colorpicker > .arrow-button {
+	-fx-padding: 0;
+}
+
+.toolbar-colorpicker > .arrow-button > .arrow {
+	-fx-padding: 0;
+}
+
+.toolbar-combobox {
+    -fx-text-fill: white;
+    -fx-background-color: #646464;
+    -fx-border-color: white;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.toolbar-combobox:hover {
+    -fx-background-color: #858585;
+}
+
+.toolbar-combobox:pressed {
+    -fx-background-color: #A6A6A6;
+}
+
+.toolbar-combobox .list-cell {
+    -fx-background-color: #646464;
+}
+
+.toolbar-combobox .list-cell:hover {
+    -fx-background-color: #858585;
+}
+
+.toolbar-combobox .list-cell:pressed {
+    -fx-background-color: #A6A6A6;
+}
+
+.toolbar-combobox .text {
+    -fx-fill: white;
+}
+
+.toolbar-combobox .arrow {
+    -fx-background-color: white;
+}
+
+.toolbar-label {
+    -fx-text-fill: white;
+}
+
+.toolbar-button {
+    -fx-background-color: #646464;
+    -fx-border-color: #AFAFAF;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.toolbar-button:hover {
+    -fx-background-color: #858585;
+}
+
+.toolbar-button:pressed {
+    -fx-background-color: #A6A6A6;
+}
+
+.toolbar-label {
+    -fx-text-fill: white;
+}
+
+.toolbar-line {
+    -fx-stroke: white;
+}
+
+/* Resize Dialog */
+.resize-dialog {
+    -fx-background-color: #505050;
+}
+
+.resize-dialog-textfield {
+    -fx-background-color: #646464;
+    -fx-border-color: white;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.resize-dialog-label {
+    -fx-text-fill: white;
+}
+
+.resize-dialog-line {
+    -fx-stroke: white;
+}
+
+.resize-dialog-button {
+    -fx-background-color: #646464;
+    -fx-border-color: #AFAFAF;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.resize-dialog-button:hover {
+    -fx-background-color: #858585;
+}
+
+.resize-dialog-button:pressed {
+    -fx-background-color: #A6A6A6;
+}
+
+/* InfoBar */
+.infobar {
+    -fx-background-color: #505050;
+    -fx-border-color: #AFAFAF;
+    -fx-border-style: solid none none none;
+}
+
+.infobar-label {
+    -fx-min-width: 100;
+    -fx-max-width: 100;
+    -fx-text-fill: white;
+}
